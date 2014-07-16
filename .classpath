@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="src" path="src/test/java"/>
-	<classpathentry kind="src" path="src/main/resources"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.commons:commons-math:2.2"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.im4java:im4java:1.2.0"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-math/2.2/commons-math-2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO"/>
+	<classpathentry kind="lib" path="/Users/shivendra.singh/Desktop/im4java-1.4.0.jar" sourcepath="/Users/shivendra.singh/Desktop/im4java-1.4.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
